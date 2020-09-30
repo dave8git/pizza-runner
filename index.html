@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizza & Taskrunner!</title>
+    <link
+        href="https://fonts.googleapis.com/css?family=Lato:400,700,900|Libre+Baskerville:400,400i|Lora:400,700|Montserrat:400,700|Roboto+Slab"
+        rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header class="header">
+        <span class="open-slide">
+            <a href="#" onclick="openSlideMenu()">
+                <svg width="30" height="30">
+                    <path d="M0,5 30,5" stroke="#fff" stroke-width="5" />
+                    <path d="M0,14 30,14" stroke="#fff" stroke-width="5" />
+                    <path d="M0,23 30,23" stroke="#fff" stroke-width="5" />
+                </svg>
+            </a>
+        </span>
+        <div id="side-menu" class="side-nav">
+            <a href="#" class="btn-close" onclick="closeSlideMenu()">&times;</a>
+            <ul class="side-menu-ul">
+                <li class="side-menu-li"><a href="#">O mnie</a></li>
+                <li class="side-menu-li"><a href="#">Projekty</a></li>
+                <li class="side-menu-li"><a href="#">Kontakt</a></li>
+                <li class="side-menu-li">
+                    <p>tel. 0000000000</p>
+                </li>
+                <li class="side-menu-li">
+                    <p>email: email@gmail.com</p>
+                </li>
+            </ul>
+
+        </div>
+        <div class="navbar-section container">
+            <p class="logo">Golden</p>
+            <p class="navbar">
+                <ul>
+                    <li><a href="#">home</a></li>
+                    <li><a href="#">catering</a></li>
+                    <li><a href="#">menu</a></li>
+                    <li><a href="#">my</a></li>
+                    <li><a href="#">kontakt</a></li>
+                </ul>
+            </p>
+        </div>
+        <div class="hello-section">
+            <p class="welcome">
+                Witaj w najlepszej restauracji na świecie!
+            </p>
+            <p class="nice">
+                Cieszymy się, że jesteś!
+            </p>
+            <button>więcej o nas</button>
+        </div>
+    </header>
+    <section class="services container">
+        <div class="section-header">
+            <h1>Services</h1>
+            <p>Proin iaculis pururs consequat sem cure.</p>
+        </div>
+        <div class="icons-text container">
+            <div class="icon-group">
+                <div class="icon-border">
+                    <i class="fas fa-shopping-basket"></i>
+                </div>
+                <p>E-commerce</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi rerum adipisci rem est pariatur
+                    deleniti?</p>
+            </div>
+            <div class="icon-group">
+                <div class="icon-border">
+                    <i class="fas fa-laptop-code"></i>
+                </div>
+                <p>E-commerce</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus consequuntur reiciendis, cum cumque
+                    fugit obcaecati.</p>
+            </div>
+            <div class="icon-group">
+                <div class="icon-border">
+                    <i class="fas fa-unlock-alt"></i>
+                </div>
+                <p>E-commerce</p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perferendis assumenda, nemo molestias
+                    nostrum perspiciatis omnis!</p>
+            </div>
+        </div>
+    </section>
+    <section class="portfolio">
+        <div class="container">
+            <div class="section-header">
+                <h1>jedzonko w naszej ofercie</h1>
+                <p>Proin iaculis pururs consequat sem cure.</p>
+
+
+            </div>
+            <div class="row">
+                <div class="picture-group picture-group-1">
+                    <div class="heading-bottom">
+                        <h3>Dziwne rzeczy</h3>
+                        <p>Zdrowe</p>
+                    </div>
+                </div>
+                <div class="picture-group picture-group-2">
+                    <div class="heading-bottom">
+                        <h3>Ciekawe... sałatki?</h3>
+                        <p>Takie sobie</p>
+                    </div>
+                </div>
+                <div class="picture-group picture-group-3">
+                    <div class="heading-bottom">
+                        <h3>Oczywiście spaghetti</h3>
+                        <p>Nie zdrowe</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="picture-group picture-group-4">
+                    <div class="heading-bottom">
+                        <h3>Smoothie</h3>
+                        <p>Super zdrowe!</p>
+                    </div>
+                </div>
+                <div class="picture-group picture-group-5">
+                    <div class="heading-bottom">
+                        <h3>Kolorowe zapiekanki</h3>
+                        <p>Chyba zdrowe</p>
+                    </div>
+                </div>
+                <div class="picture-group picture-group-6">
+                    <div class="heading-bottom">
+                        <h3>Pizza!</h3>
+                        <p>Pizza...</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="container">
+        <p class="nine_thyssen_bold">&copy; 2020 by dev.id</p>
+        <div class="icons">
+            <a href="#">
+                <div class="circle-around-icon">
+                    <i class="fab fa-twitter fa-twitter-white"></i>
+                </div>
+            </a>
+            <a href="#">
+                <div class="circle-around-icon">
+                    <i class="fab fa-facebook-f fa-facebook-white"></i>
+                </div>
+            </a>
+            <a href="#">
+                <div class="circle-around-icon">
+                    <i class="fab fa-pinterest-p fa-pinterest-white"></i>
+                </div>
+            </a>
+            <a href="#">
+                <div class="circle-around-icon">
+                    <i class="fab fa-google-plus-g fa-google-pluse-white"></i>
+                </div>
+            </a>
+        </div>
+    </footer>
+</body>
+<script>
+    function openSlideMenu() {
+        document.getElementById('side-menu').style.width = '250px';
+    }
+
+    function closeSlideMenu() {
+        document.getElementById('side-menu').style.width = '0';
+    }
+</script>
+
+</html>
